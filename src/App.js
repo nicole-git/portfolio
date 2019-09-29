@@ -1,24 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import { makeStyles, createStyles, Link, Typography } from "@material-ui/core";
+import Project from "./components/Project";
+
+const useStyles = makeStyles(theme =>
+  createStyles({
+    top: {
+      margin: theme.spacing(1),
+      backgroundColor: "f0f0f0",
+      height: 275,
+      padding: 50
+    },
+    hi: {
+      color: "#C96880",
+      fontSize: 48,
+      fontWeight: 700,
+      display: "flex",
+      justifyContent: "flex-start"
+    },
+    bottom: {
+      display: "flex",
+      backgroundColor: "#d78da0",
+      borderTopRightRadius: "7vw",
+      borderTopLeftRadius: "7vw",
+      padding: "5vw",
+      justifyContent: "space-between"
+    }
+  })
+);
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <div className={classes.top}>
+        <Typography className={classes.hi}>Hi, I'm Nicole</Typography>
+        <Typography>Here's some text</Typography>
+      </div>
+      <div className={classes.bottom}>
+        <Project></Project>
+        <Project></Project>
+        <Project></Project>
+      </div>
     </div>
   );
 }
