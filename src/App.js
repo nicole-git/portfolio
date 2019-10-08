@@ -102,7 +102,7 @@ function App() {
             <DialogContentText>
               <img
                 className={classes.image}
-                src="/img/sir.jpg"
+                src={process.env.PUBLIC_URL + "/img/sir.jpg"}
                 alt="This is Willow"
               />
             </DialogContentText>
@@ -118,7 +118,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://imnicole.net/cv">
             <Project
-              image="/img/cvaf.png"
+              image={process.env.PUBLIC_URL + "/img/cvaf.png"}
               title="Curriculum Vitae"
               description="My detailed online CV."
               tech="HTML, CSS, Jekyll/Liquid Template"
@@ -128,7 +128,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://imnicole.net/bubble-game">
             <Project
-              image="/img/bubbleaf.png"
+              image={process.env.PUBLIC_URL + "/img/bubbleaf.png"}
               title="Bubble Game"
               description="A bubble-clicking game. The more bubbles you hit consecutively, the higher your score will be."
               tech="HTML, CSS, JavaScript"
@@ -138,7 +138,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://imnicole.net/pusheen-memory">
             <Project
-              image="/img/pusheenaf.png"
+              image={process.env.PUBLIC_URL + "/img/pusheenaf.png"}
               title="Memory Game"
               description="A simple memory game where the player has to match all the cards to win."
               tech="HTML, CSS, JavaScript"
@@ -148,7 +148,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="#">
             <Project
-              image="/img/hi.png"
+              image={process.env.PUBLIC_URL + "/img/hi.png"}
               title="Online Portfolio"
               description="A collection of my projects."
               tech="React, React hooks, Material UI"
@@ -158,7 +158,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://dribbble.com/imnicole">
             <Project
-              image="/img/squashpattern.png"
+              image={process.env.PUBLIC_URL + "/img/squashpattern.png"}
               title="Illustrations"
               description="A collection of my illustrations."
               tech="Affinity Designer"
