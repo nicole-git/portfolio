@@ -1,16 +1,19 @@
 import React from "react";
 import { makeStyles, createStyles, Link, Typography } from "@material-ui/core";
 
-const useStyles = makeStyles(theme =>
+const useStyles = makeStyles(() =>
   createStyles({
     link: {
-      margin: theme.spacing(1),
-      color: "#676767"
+      color: "#676767",
+      fontFamily: "Raleway",
+      margin: 10,
+      cursor: "pointer"
     },
     container: {
       display: "flex",
-      justifyContent: "flex-end",
-      backgroundColor: "f0f0f0"
+      justifyContent: "center",
+      alignContent: "center",
+      padding: 10
     }
   })
 );
@@ -20,14 +23,19 @@ const Header = () => {
 
   return (
     <Typography className={classes.container}>
-      <Link variant="body2" className={classes.link}>
-        Pops
+      <Link
+        variant="body2"
+        className={classes.link}
+        href={"https://www.linkedin.com/in/nicole-dyrnes/"}
+      >
+        LinkedIn
       </Link>
-      <Link variant="body2" className={classes.link}>
-        Link
-      </Link>
-      <Link variant="body2" className={classes.link}>
-        Link
+      <Link
+        variant="body2"
+        className={classes.link}
+        href={"https://github.com/nicole-git"}
+      >
+        GitHub
       </Link>
     </Typography>
   );
