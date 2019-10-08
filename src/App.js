@@ -118,7 +118,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://imnicole.net/cv">
             <Project
-              image="%PUBLIC_URL%/img/cvaf.png"
+              image="/img/cvaf.png"
               title="Curriculum Vitae"
               description="My detailed online CV."
               tech="HTML, CSS, Jekyll/Liquid Template"
@@ -128,7 +128,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://imnicole.net/bubble-game">
             <Project
-              image="%PUBLIC_URL%/img/bubbleaf.png"
+              image="/img/bubbleaf.png"
               title="Bubble Game"
               description="A bubble-clicking game. The more bubbles you hit consecutively, the higher your score will be."
               tech="HTML, CSS, JavaScript"
@@ -138,7 +138,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://imnicole.net/pusheen-memory">
             <Project
-              image="%PUBLIC_URL%/img/pusheenaf.png"
+              image="/img/pusheenaf.png"
               title="Memory Game"
               description="A simple memory game where the player has to match all the cards to win."
               tech="HTML, CSS, JavaScript"
@@ -148,7 +148,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="#">
             <Project
-              image="%PUBLIC_URL%/img/hi.png"
+              image="/img/hi.png"
               title="Online Portfolio"
               description="A collection of my projects."
               tech="React, React hooks, Material UI"
@@ -158,7 +158,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="https://dribbble.com/imnicole">
             <Project
-              image="%PUBLIC_URL%/img/squashpattern.png"
+              image="/img/squashpattern.png"
               title="Illustrations"
               description="A collection of my illustrations."
               tech="Affinity Designer"
