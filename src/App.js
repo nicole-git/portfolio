@@ -103,7 +103,7 @@ function App() {
               <img
                 className={classes.image}
                 src={process.env.PUBLIC_URL + "/img/sir.jpg"}
-                alt="This is Willow"
+                alt="This is Willow, a good boy"
               />
             </DialogContentText>
           </DialogContent>
