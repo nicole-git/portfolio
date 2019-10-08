@@ -148,7 +148,7 @@ function App() {
         <Grid item xs={12} sm={6} md={4}>
           <a className={classes.a} href="#">
             <Project
-              image={process.env.PUBLIC_URL + "/img/hi.png"}
+              image={process.env.PUBLIC_URL + "/img/hiaf.png"}
               title="Online Portfolio"
               description="A collection of my projects."
               tech="React, React hooks, Material UI"
