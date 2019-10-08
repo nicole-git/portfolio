@@ -151,7 +151,7 @@ function App() {
               image="/img/hi.png"
               title="Online Portfolio"
               description="A collection of my projects."
-              tech="React, Material UI"
+              tech="React, React hooks, Material UI"
             ></Project>
           </a>
         </Grid>
