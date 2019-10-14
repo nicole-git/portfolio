@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nicole-git.github.io/portfolio/",
+  "homepage": "https://imnicole.net/",
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "react": "^16.9.0",
