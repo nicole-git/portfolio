@@ -116,7 +116,7 @@ function App() {
       </div>
       <Grid container className={classes.bottom} spacing={2}>
         <Grid item xs={12} sm={6} md={4}>
-          <a className={classes.a} href="https://imnicole.net/cv">
+          <a className={classes.a} href="https://nubkweb.github.io/cv">
             <Project
               image={process.env.PUBLIC_URL + "/img/cvaf.png"}
               title="Curriculum Vitae"
@@ -126,7 +126,7 @@ function App() {
           </a>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <a className={classes.a} href="https://imnicole.net/bubble-game">
+          <a className={classes.a} href="https://nubkweb.github.io/bubble-game">
             <Project
               image={process.env.PUBLIC_URL + "/img/bubbleaf.png"}
               title="Bubble Game"
@@ -136,7 +136,10 @@ function App() {
           </a>
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
-          <a className={classes.a} href="https://imnicole.net/pusheen-memory">
+          <a
+            className={classes.a}
+            href="https://nubkweb.github.io/pusheen-memory"
+          >
             <Project
               image={process.env.PUBLIC_URL + "/img/pusheenaf.png"}
               title="Memory Game"
