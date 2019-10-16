@@ -87,8 +87,8 @@ function App() {
         <Typography className={classes.text}>
           I'm a frontend developer / UI designer from Trondheim. This page
           contains different projects I've made in my free time to practice my
-          web development skills. Offline, I like to read, watch movies, cook,
-          and walk my{" "}
+          web development skills. Offline, I like to read, draw, watch movies,
+          cook, and walk my{" "}
           <span className={classes.dog} onClick={handleClickOpen}>
             dog
           </span>
