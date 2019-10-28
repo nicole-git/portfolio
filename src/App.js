@@ -36,7 +36,7 @@ const useStyles = makeStyles(() =>
     text: {
       fontFamily: "Raleway",
       fontSize: 22,
-      color: "#ad9b82",
+      color: "#9e835d",
       marginTop: 64,
       maxWidth: 1200,
       textAlign: "center"
